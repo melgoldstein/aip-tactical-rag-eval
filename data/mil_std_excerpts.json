@@ -1,0 +1,14 @@
+[
+  {
+    "id": "synthetic-calibration",
+    "text": "Synthetic Merritt Island sensor calibration records require a UTC timestamp and instrument identifier."
+  },
+  {
+    "id": "synthetic-lightning",
+    "text": "Synthetic Cape Canaveral electric field observations are reviewed by an operator before a weather hold is cleared."
+  },
+  {
+    "id": "synthetic-coastal",
+    "text": "Synthetic Port Canaveral coastal observations use the reference position 28.4158 N, 80.6048 W."
+  }
+]

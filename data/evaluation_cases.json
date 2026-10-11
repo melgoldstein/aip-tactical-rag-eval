@@ -1,0 +1,18 @@
+[
+  {
+    "query": "sensor calibration",
+    "expected": "synthetic-calibration"
+  },
+  {
+    "query": "electric field weather hold",
+    "expected": "synthetic-lightning"
+  },
+  {
+    "query": "coastal reference position",
+    "expected": "synthetic-coastal"
+  },
+  {
+    "query": "quantum penguins",
+    "expected": null
+  }
+]

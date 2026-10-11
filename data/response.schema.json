@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "query",
+    "answer",
+    "citations",
+    "abstained"
+  ],
+  "properties": {
+    "query": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "abstained": {
+      "type": "boolean"
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "document_id",
+          "quote"
+        ],
+        "properties": {
+          "document_id": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}
