@@ -1,5 +1,7 @@
 # Grounded technical retrieval evaluation
 
+[Portfolio: melgoldstein.com](https://melgoldstein.com/)
+
 Deterministic retrieval over generated Space Coast engineering notes, with structured
 responses, citation validation, abstention handling and latency measurement.
 
